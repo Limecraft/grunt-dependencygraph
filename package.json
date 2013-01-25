@@ -27,7 +27,7 @@
     "node >= 0.8.0"
   ],
   "dependencies": {
-    "madge": "0.1.4"
+    "madge": "https://github.com/Limecraft/node-madge/tarball/master"
   },
   "devDependencies": {
     "jshint": "0.9.1"
