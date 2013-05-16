@@ -1,6 +1,6 @@
 {
   "name": "grunt-dependencygraph",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Kenneth Auchecnberg <kenneth@auchenberg.dk>",
   "repository": "https://github.com/auchenberg/grunt-dependencygraph.git",
   "homepage": "https://github.com/auchenberg/grunt-dependencygraph.git",
@@ -30,6 +30,7 @@
     "madge": "https://github.com/Limecraft/node-madge/tarball/master"
   },
   "devDependencies": {
-    "jshint": "0.9.1"
+    "grunt": "~0.4.0"
   }
 }
+

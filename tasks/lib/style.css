@@ -1,5 +1,5 @@
   body {
-    background: #F6F6F6;
+    background: #fff;
     padding:0;
     margin:0;
     font-family:helvetica,arial;
@@ -14,35 +14,49 @@
     position: relative;
   }
 
+  g.dimmed  {
+    stroke-opacity: 0.05;
+  }
+
+  g.dimmed text.shadow {
+    stroke-opacity: 0;
+  }
+
   circle {
     fill: #ccc;
     stroke: #333;
     stroke-width: 1.5px;
   }
 
-
-  header {
-    background: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    border-bottom: 1px solid #E5E5E5;
+  text {
+    font: 10px sans-serif;
+    pointer-events: none;
   }
 
-  header h1 {
-    font-family: 'pt sans', arial, helvetica, sans-serif;
-    font-size: 42px;
-    font-weight: normal;
-    line-height: 120%;
-    color: #525252;
-    margin: 0;
+  text.shadow {
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-opacity: .8;
   }
+
+  path.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+  }
+
+  path.link.licensing {
+    stroke: green;
+  }
+
+  path.link.resolved {
+    stroke-dasharray: 0,2 1;
+  }
+
 
   .control-zoom {
     position: fixed;
-    top: 100px;
+    top: 10px;
     left: 10px;
     background: rgba(0, 0, 0, 0.25);
     padding: 5px;
